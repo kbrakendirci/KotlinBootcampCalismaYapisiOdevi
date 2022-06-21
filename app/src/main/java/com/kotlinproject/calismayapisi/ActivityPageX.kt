@@ -20,6 +20,7 @@ class ActivityPageX : AppCompatActivity() {
         tasarim.btnGoY.setOnClickListener {
             val intent = Intent(this@ActivityPageX,ActivityPageY::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

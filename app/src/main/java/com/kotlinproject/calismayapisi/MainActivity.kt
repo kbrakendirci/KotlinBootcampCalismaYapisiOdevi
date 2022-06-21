@@ -20,11 +20,13 @@ class MainActivity : AppCompatActivity() {
         tasarim.btnGoA.setOnClickListener {
             val intent = Intent(this@MainActivity,ActivityPageA::class.java)
             startActivity(intent)
+
         }
 
         tasarim.btnGoX.setOnClickListener {
             val intent = Intent(this@MainActivity,ActivityPageX::class.java)
             startActivity(intent)
+         
         }
 
     }

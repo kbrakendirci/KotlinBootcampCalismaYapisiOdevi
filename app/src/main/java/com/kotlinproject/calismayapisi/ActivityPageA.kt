@@ -19,6 +19,7 @@ class ActivityPageA : AppCompatActivity() {
         btnGoB.setOnClickListener {
             val intent = Intent(this@ActivityPageA,ActivityPageB::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
